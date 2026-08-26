@@ -27,3 +27,20 @@ function isPrime(a) {
     }
 }
 isPrime()
+
+// Ortalama Hesaplama
+const ogrenciler = [
+  { ad: 'Ali', not: 85 },
+  { ad: 'Ayşe', not: 92 },
+  { ad: 'Can', not: 78 }
+];
+
+function ortalamaHesapla(ogrenciler){
+    let toplam = 0 ; 
+    for (let i=0 ; i<ogrenciler.length ; i++){
+        toplam += ogrenciler[i].not;
+    }
+    return ortalama = toplam / ogrenciler.length
+}
+const sonuc = ortalamaHesapla(ogrenciler);
+console.log(sonuc)
