@@ -44,3 +44,19 @@ function ortalamaHesapla(ogrenciler){
 }
 const sonuc = ortalamaHesapla(ogrenciler);
 console.log(sonuc)
+
+
+// Faktoriyel hesaplama
+function calFact(a){
+    
+    if (a < 0){
+        console.log("Can't calculate")
+        
+    }
+    let sonuc = 1
+    for (let i = 2 ; i <= a ; i++){
+        sonuc *= i;
+    }
+    return sonuc
+}
+console.log(calFact(6))
