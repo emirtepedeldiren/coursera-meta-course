@@ -51,7 +51,6 @@ function calFact(a){
     
     if (a < 0){
         console.log("Can't calculate")
-        
     }
     let sonuc = 1
     for (let i = 2 ; i <= a ; i++){
@@ -60,3 +59,9 @@ function calFact(a){
     return sonuc
 }
 console.log(calFact(6))
+
+// Random sayi uretme
+function randomNumber(){
+    return Math.floor(((Math.random()*10))+1)
+}
+console.log(randomNumber())
