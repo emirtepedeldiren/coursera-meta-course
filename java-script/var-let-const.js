@@ -37,6 +37,6 @@ const user4 = "Andrew"; //Referance error vericektir
 */
 
 const user4 = "Andrew";
-user4 = "Anna";
+user4 = "Anna"; //TypeError vericek const degiskeni sonradan degistirilemez !!!
 
 
