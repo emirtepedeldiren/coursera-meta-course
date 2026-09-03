@@ -27,3 +27,4 @@ console.log(fitnessGym.openHrs)
 console.log(fitnessGym.gymBike)
 console.log(fitnessGym.treadmill)
 
+
