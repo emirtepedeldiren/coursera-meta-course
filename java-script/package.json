@@ -1,0 +1,24 @@
+{
+  "name": "meta-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --json --outputFile=testResult.json --coverage --coverageReporters='json-summary'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emirtepedeldiren/coursera-meta-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emirtepedeldiren/coursera-meta-course/issues"
+  },
+  "homepage": "https://github.com/emirtepedeldiren/coursera-meta-course#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
